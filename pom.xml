@@ -10,6 +10,8 @@
 	<modules>
 		<module>springcloud.helloworld.eureka.server</module>
 		<module>springcloud.helloworld.eureka.client</module>
+		<module>springcloud.helloworld.config.server</module>
+		<module>springcloud.helloworld.config.client</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

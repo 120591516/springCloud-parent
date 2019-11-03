@@ -10,6 +10,6 @@ public class HelloService {
 	RestTemplate restTemplate;
 
 	public String getHelloContent() {
-		return restTemplate.getForObject("http://SERVICE-HELLOWORLD/", String.class);
+		return restTemplate.getForObject("http://PROVIDER-USER/", String.class);
 	}
 }

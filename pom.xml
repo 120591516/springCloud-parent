@@ -15,6 +15,7 @@
 		<module>springcloud.helloworld.eureka.client1</module>
 		<module>springcloud.helloworld.ribbon.service</module>
 		<module>springcloud.helloworld.feign.client</module>
+		<module>springcloud.helloworld.hystrix.client</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

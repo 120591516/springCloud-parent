@@ -9,3 +9,13 @@ eureka:
        fetchRegistry: false
        serviceUrl:
            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: passwrod123
+
+logging:
+  level:
+    root: INFO

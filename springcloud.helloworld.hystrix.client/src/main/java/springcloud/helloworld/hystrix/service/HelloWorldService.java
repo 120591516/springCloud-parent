@@ -1,9 +1,10 @@
-package springcloud.helloworld.hystrix.client.service;
+package springcloud.helloworld.hystrix.service;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
 //调用服务提供者
 @FeignClient(value = "PROVIDER-USER")
 public interface HelloWorldService {

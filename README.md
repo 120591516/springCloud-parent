@@ -23,3 +23,8 @@
     消费者fegin调用方式
 ##springcloud.helloworld.hystrix.client
     hystrix断路器的配置
+
+##springcloud.helloworld.zuul
+    zuul api gateway
+##springcloud.helloworld.sidecar
+    异构语言开发

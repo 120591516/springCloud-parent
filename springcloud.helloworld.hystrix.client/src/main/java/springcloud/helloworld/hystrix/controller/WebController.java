@@ -1,4 +1,4 @@
-package springcloud.helloworld.hystrix.client.controller;
+package springcloud.helloworld.hystrix.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
-import springcloud.helloworld.hystrix.client.service.HelloWorldService;
+import springcloud.helloworld.hystrix.service.HelloWorldService;
 
 @RestController
 public class WebController {

@@ -1,4 +1,4 @@
-package springcloud.helloworld.hystrix.client.service;
+package springcloud.helloworld.feign.service;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;

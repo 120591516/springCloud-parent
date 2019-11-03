@@ -1,4 +1,4 @@
-package springcloud.helloworld.hystrix.client.controller;
+package springcloud.helloworld.feign.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import springcloud.helloworld.hystrix.client.service.HelloWorldService;
+import springcloud.helloworld.feign.service.HelloWorldService;
 
 @RestController
 public class WebController {
